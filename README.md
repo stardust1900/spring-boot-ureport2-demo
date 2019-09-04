@@ -4,10 +4,10 @@
 
 新建数据库
 ```
-CREATE USER 'choerodon'@'%' IDENTIFIED BY "123456";
+CREATE USER 'ureport2'@'%' IDENTIFIED BY "ureport2";
 
-CREATE DATABASE report_test DEFAULT CHARACTER SET utf8;
-GRANT ALL PRIVILEGES ON report_test.* TO choerodon@'%';
+CREATE DATABASE ureport2 DEFAULT CHARACTER SET utf8;
+GRANT ALL PRIVILEGES ON ureport2.* TO ureport2@'%';
 FLUSH PRIVILEGES;
 ```
 
